@@ -1,0 +1,15 @@
+#btn{
+    width: 300px;
+    height: 70px;
+}
+#mainrow{
+    min-height:550px;
+    margin-top:210px;
+}
+#btn{
+    margin-bottom:40px;
+}
+.links{
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
