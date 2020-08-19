@@ -1,15 +1,27 @@
 #btn{
     width: 300px;
     height: 70px;
+    margin-bottom:40px;
+    border-style: none;
+    border-radius: 80px;
+    background: black;
+    box-shadow:  -5px 5px 10px #0e0e0e, 
+    5px -5px 10px #363636;
+    outline: none;
+}
+#btn:focus{
+    outline: none;
 }
 #mainrow{
     min-height:550px;
     margin-top:210px;
 }
-#btn{
-    margin-bottom:40px;
-}
 .links{
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button-big{
+    display: block;
+    background: black;
+    align-items: center;
 }
