@@ -1,27 +1,48 @@
-#btn{
-    width: 300px;
-    height: 70px;
-    margin-bottom:40px;
-    border-style: none;
-    border-radius: 80px;
-    background: black;
-    box-shadow:  -5px 5px 10px #0e0e0e, 
-    5px -5px 10px #363636;
-    outline: none;
-}
-#btn:focus{
-    outline: none;
-}
-#mainrow{
-    min-height:550px;
-    margin-top:210px;
-}
-.links{
-    font-size: 1.4em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.button-big{
-    display: block;
-    background: black;
-    align-items: center;
-}
+    #btn{
+        width: 300px;
+        height: 70px;
+        margin-bottom:40px;
+        border-style: none;
+        border-radius: 100px;
+        background: black;
+        box-shadow:  -5px 5px 10px #0e0e0e, 
+        5px -5px 10px #363636;
+        outline: none;
+    }
+    #btn:focus{
+        outline: none;
+    }
+    #mainrow{
+        min-height:550px;
+        margin-top:210px;
+    }
+    .links{
+        font-size: 1.4em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .button-big{
+        background: black;
+    }
+    @media (max-width: 500px){
+        #btn{
+            width: 200px;
+        }
+        #mainrow{
+            min-height:500px;
+            margin-top:150px;
+        }
+        .button-big{
+            margin-left: 25px;
+        }
+    }
+    @media (max-width: 400px){
+        .button-big{
+            margin-left: 12px;
+        }
+        #btn{
+            width: 180px;
+            height: 60px;
+        }
+    }
+
+
